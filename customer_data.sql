@@ -1,5 +1,5 @@
-/* CUSTOMER JOINED DATA - to get client's amount spenditure on dvd rental and addresses */
---data: DVD rental database: customer, payment, address, city tables
+/* CUSTOMER JOINED DATA - to get client's amount expenditure on dvd rental and addresses */
+--data: DVD rental database/ PostgreSQL 14.0: customer, payment, address, city tables
 
 SELECT payment.customer_id, 
 SUM(amount) AS customer_spent, 
